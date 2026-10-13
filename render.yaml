@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bake-and-bite-fotos
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /*.wasm
+        name: Content-Type
+        value: application/wasm

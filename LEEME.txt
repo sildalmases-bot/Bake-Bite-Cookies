@@ -1,0 +1,23 @@
+ESTUDIO DE FOTOS BAKE AND BITE - como publicarlo en Render
+===========================================================
+
+Archivos (subilos los 7 juntos, sin carpeta):
+  index.html, ort-wasm-simd.wasm, recorte-modelo.txt,
+  icono-180.png, favicon.png, render.yaml, LEEME.txt
+
+1) GitHub (gratis): github.com > New repository
+   - Nombre: bake-and-bite-fotos  - Public  - Create repository
+   - Toca "uploading an existing file", arrastra los archivos y "Commit changes".
+
+2) Render (gratis): render.com > Get Started > entrar con GitHub
+   - New + > Static Site > elegi el repositorio bake-and-bite-fotos
+   - Build Command: dejalo vacio
+   - Publish Directory: .   (un punto)
+   - Create Static Site. En 1 o 2 minutos queda en:
+     https://bake-and-bite-fotos.onrender.com
+
+3) En el iPhone: abri el link en Safari > Compartir > "Agregar a inicio".
+   Queda como una app con el logo de Bake and Bite.
+
+Para cambiar algo despues: subis el archivo nuevo al mismo repositorio en
+GitHub y Render actualiza la pagina solo.
